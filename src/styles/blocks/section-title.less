@@ -1,20 +1,24 @@
 .section-title {
-    box-sizing: border-box;
     display: flex;
-    width: 100%;
-    max-width: 624px;
-    box-sizing: border-box;
     justify-content: center;
-    align-items: center;
-    min-height: 62px;
-    margin: 0 auto 150px;
-    padding: 8px 45px;
+    flex-direction: column;
+    width: 624px;
+    height: 62px;
     background-color: @black;
-    color: @white;
-    font-family: @font2;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 1.277;
-    text-align: center;
-    text-transform: uppercase;
+    
+    &__title {
+        margin-top: 200px;
+        margin-inline: auto;
+        margin-bottom: 50px;
+    }
+    
+    &__text {
+        
+        color: @white;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: @font2;
+        font-size: 36px;
+        font-weight: 500;
+    }
 }
